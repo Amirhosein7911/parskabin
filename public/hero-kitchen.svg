@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+
+  <!-- Kitchen island -->
+  <path d="M100 500 Q200 400 300 500 Q400 600 500 500 Q600 400 700 500 Q800 500 900 600 Q950 450 1000 500 Q1100 600 1200 500 Q1300 400 1400 500 Q1500 650 1600 500 Q1700 400 1800 500 Q1900 600 1920 700"
+        fill="#2d3a57" transform="scale(0.4) translate(-200, -100)"/>
+
+  <!-- Cabinet base -->
+  <path d="M300 400 Q400 300 500 400 Q600 300 700 400 Q800 300 900 400 Q1000 300 1100 400"
+        fill="#4a5d7a" transform="scale(0.4) translate(-200, -100)"/>
+
+  <!-- Countertop -->
+  <path d="M300 380 Q400 350 700 380 Q800 350 1100 380 Q1200 350 1500 380 Q1600 350 1920 380"
+        fill="#e8d5b6" transform="scale(0.4) translate(-200, -100)"/>
+
+  <!-- Pendant light -->
+  <circle cx="240" cy="160" r="12" fill="#ff6b6b" transform="scale(0.4)"/>
+  <line x1="240" y1="172" x2="240" y2="220" stroke="#ff6b6b" stroke-width="1" transform="scale(0.4)"/>
+
+  <!-- Decorative elements -->
+  <ellipse cx="600" cy="240" rx="20" ry="12" fill="#ff6b6b" transform="scale(0.4)"/>
+  <ellipse cx="200" cy="200" rx="16" ry="8" fill="#ff6b6b" transform="scale(0.4)"/>
+
+  <!-- Text placeholder -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        fill="#ffffff" font-size="24" font-family="Arial, sans-serif" opacity="0.3">
+    Architectural Kitchen Design
+  </text>
+</svg>

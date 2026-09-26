@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d3748;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a202c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bgGrad)" />
+
+  <!-- Wooden cabinet -->
+  <path d="M100 100 Q150 50 200 100 Q250 150 300 100 Q350 50 400 100 Q450 150 500 100 Q550 50 600 100 L600 300 Q550 350 500 300 Q450 400 400 350 Q350 300 300 250 Q250 200 200 150 Q150 100 100 100 Z" fill="#8b5e3c" />
+
+  <!-- Countertop -->
+  <path d="M100 80 Q150 50 200 80 Q250 50 300 80 Q350 50 400 80 Q450 50 500 80 Q550 50 600 80 L600 280 Q550 330 500 280 Q450 380 400 330 Q350 280 300 230 Q250 180 200 130 Q150 80 100 80 Z" fill="#f5f5dc" />
+
+  <!-- Text -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        fill="#ffffff" font-size="16" font-family="Arial, sans-serif" opacity="0.7">
+    Wooden Project
+  </text>
+</svg>
