@@ -10,7 +10,7 @@ export default function HeroSection() {
       {/* Background Image - High-quality architectural kitchen */}
       <div className="absolute inset-0">
         <Image
-          src="/hero-kitchen.svg"
+          src="/images/background.webp"
           alt="Premium architectural kitchen design"
           fill
           priority

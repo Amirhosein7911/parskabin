@@ -34,13 +34,13 @@ export default function HeroContent() {
 
       {/* Supporting Text */}
       <motion.p
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, delay: 1.2 }}
-        className="text-lg md:text-xl text-neutral-300 max-w-2xl text-center md:text-left"
-      >
-        بهترین پروژه‌ها را ببینید، کابینت‌کار حرفه‌ای خود را پیدا کنید و ایده‌ی خود را به واقعیت تبدیل کنید.
-      </motion.p>
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 1.2 }}
+            className="text-lg md:text-xl text-neutral-300 max-w-2xl text-center md:text-left"
+          >
+            بهترین پروژه‌ها را ببینید، کابینت‌کار حرفه‌ای خود را پیدا کنید و ایده‌ی خود را به واقعیت تبدیل کنید.
+          </motion.p>
 
       {/* CTA Buttons */}
       <motion.div

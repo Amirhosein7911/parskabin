@@ -25,9 +25,7 @@ export default function Navbar({ className }: NavbarProps) {
   const navItems = [
     { name: 'پروژه‌ها', href: '/projects' },
     { name: 'کابینت‌کارها', href: '/cabinet-makers' },
-    { name: 'فرصت‌های شغلی', href: '/job-opportunities' },
     { name: 'رزومه‌ساز', href: '/resume-builder' },
-    { name: 'درباره ما', href: '/about' },
   ]
 
   return (

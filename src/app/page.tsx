@@ -1,4 +1,3 @@
-import Navbar from "@/components/ui/navbar";
 import HeroSection from "@/components/home/hero-section";
 import ProjectDiscovery from "@/components/home/project-discovery";
 import MakerGrid from "@/components/home/maker-grid";
@@ -10,7 +9,6 @@ import { makers } from "@/lib/mock-data";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <HeroSection />
       <ProjectDiscovery />
       <MakerGrid makers={makers} />
